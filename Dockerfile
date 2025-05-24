@@ -13,10 +13,9 @@ RUN apt-get update && \
     build-essential \
     ca-certificates \
     curl \
-    libffi7 \
+    libffi8 \
     make \
     shellcheck \
-    libffi7 \
     git-all \
     && gem install bundler:2.5.14 \
     && bundle config --global silence_root_warning 1 \
